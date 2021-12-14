@@ -5,6 +5,7 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 
+// The "Coin Game" - START
 const coins = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 determineWinners(coins);
@@ -23,3 +24,5 @@ function determineWinner(nbrCoins) {
     return 'you';
   }
 }
+
+// The "Coin Game" - END
